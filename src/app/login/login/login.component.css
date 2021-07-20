@@ -10,7 +10,8 @@ body{
 }
 
 .login-page{
-	background-image: url('../../../assets/IMG/lima.jpg');
+	/* background-image: url('../../../assets/IMG/lima.jpg'); */
+	background: rgb(243, 182, 172);
 	background-size: cover;
 	height: 100vh;
 	position: relative;
