@@ -1,0 +1,23 @@
+<app-principal></app-principal>
+<h1>ESTE ES EL COMPONENTE DE MENSAJES</h1>
+
+<div [formGroup]="form" class="form-control" style="width: 60%; margin-left: 10%;">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">PARA :</label>
+        <input required formControlName="destinatario" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">TITULO</label>
+        <input required type="email" formControlName="titulo" class="form-control" id="exampleFormControlInput1" placeholder="Titulo del mensaje">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
+        <textarea required formControlName="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba el mensaje ..."></textarea>
+    </div>
+
+    <div class="mb-3">
+        <button class="btn btn-primary" (click)="enviarCorreo()">Enviar</button>
+    </div>
+    
+</div>

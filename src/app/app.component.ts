@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AngularFireStorage } from '@angular/fire/storage';
+import { Archivo } from './models/archivos';
+import { ExaService } from './services/exa.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'examen3-distribuidas';
+  
+  constructor(){}
+
+
+  
+
 }

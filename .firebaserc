@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "exam3-24564": {
+      "hosting": {
+        "examen3-distribuidas": [
+          "exam3-24564"
+        ]
+      }
+    }
+  }
+}
